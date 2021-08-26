@@ -1,7 +1,7 @@
 ![Zigen Logo](https://github.com/tony722/Zigen.HXLPlus/raw/master/Documentation/Zigen_Logo_Black_small.png)
 ***
 # Zigen SW41/42-Plus _Mk III_ Crestron Home OS Module - Serial
-### Zigen.Ccd.SWPlusMkIIISerial
+### Zigen.Ccd.SWPlusMk3Serial
 
 Audio/Video Switcher Module for Crestron Home OS  
 Connection: RS232 Serial
@@ -24,7 +24,7 @@ on the processor using an FTP client or Crestron Toolbox
 
 
 ## Crestron Home OS Package:
-## [Download Latest Crestron Home OS Package Here: v6.0000.0004](https://github.com/tony722/Zigen.Ccd.SWPlusMkIIISerial/raw/master/AET.Zigen.Ccd.SWPlusMkIIISerial/AET.Zigen.Ccd.SWPlusMkIIISerial/bin/Debug/AET.Zigen.Ccd.SWPlusMkIIISerial.pkg)
+## [Download Latest Crestron Home OS Package Here: v6.0000.0004](https://github.com/tony722/Zigen.Ccd.SWPlusMk3Serial/raw/master/AET.Zigen.Ccd.SWPlusMk3Serial/AET.Zigen.Ccd.SWPlusMk3Serial/bin/Debug/AET.Zigen.Ccd.SWPlusMk3Serial.pkg)
 
 ## Support
 Support inquiries should be directed to [Zigen Corp](https://zingencorp.com): 818-654-5252. 

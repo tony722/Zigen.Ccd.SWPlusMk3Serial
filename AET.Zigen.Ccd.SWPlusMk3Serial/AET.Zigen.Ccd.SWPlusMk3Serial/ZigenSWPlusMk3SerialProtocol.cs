@@ -1,11 +1,8 @@
-﻿using System;
-using Crestron.RAD.Common.BasicDriver;
-using Crestron.RAD.Common.Enums;
+﻿using Crestron.RAD.Common.BasicDriver;
 using Crestron.RAD.Common.Transports;
 using Crestron.RAD.DeviceTypes.AudioVideoSwitcher;
-using Crestron.SimplSharp;
 
-namespace AET.Zigen.Ccd.SWPlusMkIIISerial {
+namespace AET.Zigen.Ccd.SWPlusMk3Serial {
   public class ZigenSWPlusMkIIISerialProtocol : AAudioVideoSwitcherProtocol {
 
     public ZigenSWPlusMkIIISerialProtocol(ISerialTransport transport, byte id)

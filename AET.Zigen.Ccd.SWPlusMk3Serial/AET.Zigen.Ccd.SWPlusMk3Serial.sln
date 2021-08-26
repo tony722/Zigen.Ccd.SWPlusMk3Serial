@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Zigen.Ccd.SWPlusMkIIISerial", "AET.Zigen.Ccd.SWPlusMkIIISerial\AET.Zigen.Ccd.SWPlusMkIIISerial.csproj", "{02D578AC-3027-4381-A547-73B06DFFC331}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Zigen.Ccd.SWPlusMk3Serial", "AET.Zigen.Ccd.SWPlusMk3Serial\AET.Zigen.Ccd.SWPlusMk3Serial.csproj", "{02D578AC-3027-4381-A547-73B06DFFC331}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
