@@ -20,7 +20,7 @@ on the processor using an FTP client or Crestron Toolbox
 
 
 ## Crestron Home OS Package:
-## [Download Latest Crestron Package Here v6.0000.0004](https://github.com/tony722/Zigen.Ccd.SWPlusMkIIISerial/raw/master/AET.Zigen.Ccd.SWPlusMkIIISerial/AET.Zigen.Ccd.SWPlusMkIIISerial/bin/Debug/AET.Zigen.Ccd.SWPlusMkIIISerial.pkg)
+## [Download Latest Crestron Home OS Package Here: v6.0000.0004](https://github.com/tony722/Zigen.Ccd.SWPlusMkIIISerial/raw/master/AET.Zigen.Ccd.SWPlusMkIIISerial/AET.Zigen.Ccd.SWPlusMkIIISerial/bin/Debug/AET.Zigen.Ccd.SWPlusMkIIISerial.pkg)
 
 ## Support
 Support inquiries should be directed to [Zigen Corp](https://zingencorp.com): 818-654-5252. 
