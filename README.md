@@ -6,7 +6,7 @@
 Audio/Video Switcher Module for Crestron Home OS  
 Connection: RS232 Serial
 
-This serial only includes the following functions:
+### This serial driver only supports the following functions:
 * Power on/off
 * Input/output switching
 
