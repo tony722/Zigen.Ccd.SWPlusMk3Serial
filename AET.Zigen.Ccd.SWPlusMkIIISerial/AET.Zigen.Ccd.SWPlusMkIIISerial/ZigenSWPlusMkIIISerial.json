@@ -1,0 +1,221 @@
+﻿{
+  "CrestronSerialDeviceApi": {
+    "DeviceSupport": {
+      "SupportsFeedback": false,
+      "SupportsDiscretePower": true,
+      "SupportsTogglePower": false,
+      "SupportsPowerFeedback": false,
+      "SupportsTemperatureFeedback": false,
+      "SupportsWarmUpTime": false,
+      "SupportsCoolDownTime": false,
+      "SupportsDisconnect": false,
+      "SupportsReconnect": false
+    },
+    "GeneralInformation": {
+      "DeviceType": "AV Switcher",
+      "Manufacturer": "Zigen",
+      "BaseModel": "SW-42Plus",
+      "VersionDate": "2021-08-26 14:25:00.000",
+      "DriverVersion": "6.0000.0004",
+      "SdkVersion": "2.9.100",
+      "Description": "Zigen SW-Plus Series",
+      "Guid": "52144F08-2AB2-49E1-BBF5-BB1605CAEA86",
+      "SupportedSeries": ["SW-Plus"],
+
+      "SupportedModels": ["SW-41Plus", "SW-42Plus"]
+
+    },
+    "Api": {
+      "Communication": {
+        "CommunicationType": 0,
+        "Protocol": 0,
+        "Baud": 65536,
+        "Parity": 0,
+        "HwHandshake": 0,
+        "SwHandshake": 0,
+        "DataBits": 8,
+        "StopBits": 1,
+        "Port": 0,
+        "EnableAutoPolling": false,
+        "EnableAutoReconnect": true,
+        "TimeBetweenCommands": 250,
+
+        "ResponseTimeout": 1000,
+        "WaitForResponse": false,
+        "IpProtocol": -1,
+        "IsUserAdjustable": false,
+        "Authentication": {
+          "Type": "None",
+          "Required": false
+        },
+        "IsSecure": false,
+        "UserAdjustableProperties": [],
+        "DeviceId": 0
+      },
+      "StandardCommands": {
+        "PowerOn": {
+          "Command": "pwr on"
+        }, 
+        "PowerOff": {
+          "Command": "pwr off"
+        },
+        "AudioVideoSwitcherRoute": {
+          "Command": "switch {output} {input}"
+
+        }
+      },
+
+      "AudioVideoSwitcher": {
+        "AutoDetectConfiguration": false,
+        "SupportsAudioBreakaway": true,
+        "NullInputIdentifier": "0",
+
+        "RoutableOutputs": [{
+
+            "Id": "output1",
+            "ApiIdentifier": "1",
+            "Name": "Output 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1"
+              }
+            ]
+          }, {
+            "Id": "output2",
+            "ApiIdentifier": "2",
+            "Name": "Output 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2"
+              }
+            ]
+          }
+        ],
+        "RoutableInputs": [{
+
+            "ApiIdentifier": "1",
+            "Id": "input1",
+            "Name": "Input 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "2",
+            "Id": "input2",
+            "Name": "Input 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "3",
+            "Id": "input3",
+            "Name": "Input 3",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "4",
+            "Id": "input4",
+            "Name": "Input 4",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "UserAttributes": []
+
+  }
+}
